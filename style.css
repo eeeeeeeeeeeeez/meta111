@@ -46,7 +46,7 @@ nav a:hover{color:var(--seal)}
 .facts dt{color:var(--haze)}
 .facts dd{font-weight:500}
 
-.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.contact-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px}
 .contact-grid>div{border-top:2px solid var(--ink);padding-top:14px}
 .label{display:block;color:var(--haze);font-size:14px}
 .contact-grid a,.contact-grid span:not(.label){font-size:20px;font-weight:700;text-decoration:none}
@@ -59,3 +59,6 @@ footer{background:var(--ink2);color:var(--haze);text-align:center;padding:28px 5
   .hero{min-height:70vh}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+
+footer a{color:var(--sign)}
+.doc{max-width:760px;margin:0 auto;padding:60px 5vw}.doc h1{margin-bottom:24px}.doc h2{font-size:20px;margin:28px 0 8px}
